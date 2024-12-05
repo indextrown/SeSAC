@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='01. 변수와 상수'/>
+        <page name='02. 컴파일 관련'/>
+        <page name='03. 연산자'/>
+        <page name='04. 형변환'/>
+    </pages>
+</playground>
