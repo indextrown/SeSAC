@@ -5,6 +5,43 @@
 //  Created by 김동현 on 12/6/24.
 //
 
+/*
+ 
+ 변수 / 상수
+ - 타입 어노테이션
+ - 타입 추론
+ - 형변환
+ 
+ 타입(자료형)
+ - 기본Int, String, Bool, Double
+ - 집단자료형 Array, Dictionary, Set
+ - \(): String Interpolation
+ - """""": multi line strings
+ - a != A
+ - 옵셔널 타입(nil을 가질 수 있음)
+ -> 내용 가져오려면
+ - !, if - else, ??
+ 
+ 연산자
+ - 범위연산자
+ - ...
+ - ..<
+ - /, %, ==, !=, ??(nil 변환 연산자)
+ 
+ 조건
+ - if else
+ - switch default
+ 
+ 반복
+ - for
+ 
+ 함수
+ - func ~() {}
+ - () = 함수 호출 연산자 = 매개변수 넣을 수 있다
+ - {} 기능은 중괄호안에 작성
+ 
+ */
+
 import Foundation
 
 // 랜덤 숫자
@@ -161,9 +198,88 @@ default: print("오류 발생")
 var musicList = ["좋은 날", "잔소리", "Dynamic", "OMG"]
 
 for (index, value) in musicList.enumerated() {
-    //print("\(index+1)위: \(value)")
+    print("\(index+1)위: \(value)")
 }
 
 for musicidx in 0..<musicList.count {
-    //print("\(musicidx+1)위: \(musicList[musicidx])")
+    print("\(musicidx+1)위: \(musicList[musicidx])")
 }
+
+// MARK: - 함수
+// %: Percnt Sign, {}: Brace, []: Bracket
+
+func findMultipleNumber(_ randomNumber: [Int]) {
+    for number in randomNumber {
+        if number % 4 == 0 || number % 6 == 0 {
+            print(number)
+        }
+    }
+}
+// findMultipleNumber([4, 8, 12, 16])
+
+func baseScore() {
+    let score = [100, 270, 90, 120, 240, 300]
+    var best: [Int] = []
+    
+    for i in score {
+        if i > 200 {
+            best.append(i)
+        }
+    }
+    print("우수자는 총 \(best.count)명 입니다.")
+}
+// baseScore()
+
+func baseScore2() {
+    let score = [100, 270, 90, 120, 240, 300]
+    var best: Int = 0
+    
+    for i in score {
+        if i > 200 {
+            best = best + 1
+        }
+    }
+    print("우수자는 총 \(best)명 입니다.")
+}
+// baseScore2()
+
+// 함수: 독립적으로 처리할 수 있는 부분 -> 구조화
+// 같은 코드를 여러번 작성할 필요가 없어 효율적!
+// 함수는 2가지 종류
+// 애플이 만든 함수, 사용자 정의 함수
+func welcomeMessage(nickname: String) {
+    print("hello \(nickname)")
+}
+//welcomeMessage(nickname: "Index")
+
+func changeProgram(money: Int, product: Int) {
+    let change = money - product
+    let rest500 = change / 500
+    let rest100 = (change % 500) / 100
+    
+    print("""
+    거스름돈 \(change)원을,
+    500원 \(rest500)개,
+    100원 \(rest100)개로
+    거슬러 주었습니다.
+    """)
+}
+// changeProgram(money: 5000, product: 3800)
+
+func calculateWater(height: Int, weight: Double) {
+    let waterGuide = (Double(height) + weight) / 100
+    print("하루 물 권장 섭취량은 \(waterGuide) 입니다.")
+}
+//calculateWater(height: 175, weight: 75)
+
+
+// MARK: - 옵셔널
+// nil이라는 값을 만나게 되면 앱이 실행 중 꺼질 수 있고 런타임 오류 발생 가능하다..
+// 그래서 !사용은 굉장히 위험하다
+// 안전하게 쓰려면 조건문을 쓰자
+var number = [1, 2, 3, 4, 5]
+// 배열에 요소가 하나라도 없으면 문제가 생길 수 있어서 불안해서 옵셔널이라는 박스로 감싼다
+print(number.randomElement()!)
+number.removeAll()
+//print(number.randomElement())
+
