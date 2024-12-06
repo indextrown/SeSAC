@@ -1,4 +1,3 @@
-
 //1. 회원가입, 닉네임, 이메일, 나이, 평점, 성별
 // MARK: - 타입추론이 존재하는데 어떨떄는 타입추론을 안쓰고 타입 어노테이션 쓰는 이유(Double, Float..)
 var nickname: String = "Index"

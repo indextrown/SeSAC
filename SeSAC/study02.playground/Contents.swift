@@ -4,7 +4,7 @@ let runtime = count * 120
 let genrelist = ["로맨스", "SF", "스릴러", "액션", "코미디"]
 //let genre = "로맨스"
 //let genre = genrelist[Int.random(in: 0..<genrelist.count)]
-let genre = genrelist.randomElement()
+let genre = genrelist.randomElement()!
 let rate: Double = Double.random(in: 1...5)
 
 print("""

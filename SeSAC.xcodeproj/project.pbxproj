@@ -28,12 +28,15 @@
 		DFA8E6312D01FA6C002AF8C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DFA8E6382D01FAB9002AF8C4 /* study06_조건문.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study06_조건문.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFA8E6392D01FAB9002AF8C4 /* study07_반복문.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study07_반복문.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		DFA8E63A2D01FAB9002AF8C4 /* study05_딕셔너리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study05_딕셔너리.playground"; sourceTree = "<group>"; };
+		DFA8E63A2D01FAB9002AF8C4 /* study05_딕셔너리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study05_딕셔너리.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFA8E63B2D01FAB9002AF8C4 /* study01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = study01.playground; sourceTree = "<group>"; };
 		DFA8E63C2D01FAB9002AF8C4 /* study0.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = study0.swift; sourceTree = "<group>"; };
-		DFA8E63D2D01FAB9002AF8C4 /* study03_배열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study03_배열.playground"; sourceTree = "<group>"; };
-		DFA8E63E2D01FAB9002AF8C4 /* study04_집합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study04_집합.playground"; sourceTree = "<group>"; };
-		DFA8E63F2D01FABA002AF8C4 /* study02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = study02.playground; sourceTree = "<group>"; };
+		DFA8E63D2D01FAB9002AF8C4 /* study03_배열.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study03_배열.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFA8E63E2D01FAB9002AF8C4 /* study04_집합.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study04_집합.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFA8E63F2D01FABA002AF8C4 /* study02.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = study02.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFFCBBCA2D01FDD200BFB581 /* study08_함수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study08_함수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFFCBBCB2D02021C00BFB581 /* study09_매개변수.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study09_매개변수.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DFFCBBCC2D02056A00BFB581 /* study10_옵셔널.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study10_옵셔널.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		DFA8E6302D01FA6C002AF8C4 /* SeSAC */ = {
 			isa = PBXGroup;
 			children = (
+				DFA8E6312D01FA6C002AF8C4 /* main.swift */,
 				DFA8E63C2D01FAB9002AF8C4 /* study0.swift */,
 				DFA8E63B2D01FAB9002AF8C4 /* study01.playground */,
 				DFA8E63F2D01FABA002AF8C4 /* study02.playground */,
@@ -74,7 +78,9 @@
 				DFA8E63A2D01FAB9002AF8C4 /* study05_딕셔너리.playground */,
 				DFA8E6382D01FAB9002AF8C4 /* study06_조건문.playground */,
 				DFA8E6392D01FAB9002AF8C4 /* study07_반복문.playground */,
-				DFA8E6312D01FA6C002AF8C4 /* main.swift */,
+				DFFCBBCA2D01FDD200BFB581 /* study08_함수.playground */,
+				DFFCBBCB2D02021C00BFB581 /* study09_매개변수.playground */,
+				DFFCBBCC2D02056A00BFB581 /* study10_옵셔널.playground */,
 			);
 			path = SeSAC;
 			sourceTree = "<group>";
