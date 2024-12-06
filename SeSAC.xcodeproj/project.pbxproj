@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFA8E6322D01FA6C002AF8C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8E6312D01FA6C002AF8C4 /* main.swift */; };
+		DF33E77D2D0303D300A423BB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33E77C2D0303D300A423BB /* main.swift */; };
 		DFA8E6402D01FABA002AF8C4 /* study0.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8E63C2D01FAB9002AF8C4 /* study0.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF33E77C2D0303D300A423BB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DFA8E62E2D01FA6C002AF8C4 /* SeSAC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SeSAC; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFA8E6312D01FA6C002AF8C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFA8E6312D01FA6C002AF8C4 /* main0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main0.swift; sourceTree = "<group>"; };
 		DFA8E6382D01FAB9002AF8C4 /* study06_조건문.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study06_조건문.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFA8E6392D01FAB9002AF8C4 /* study07_반복문.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study07_반복문.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DFA8E63A2D01FAB9002AF8C4 /* study05_딕셔너리.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "study05_딕셔너리.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -69,7 +70,7 @@
 		DFA8E6302D01FA6C002AF8C4 /* SeSAC */ = {
 			isa = PBXGroup;
 			children = (
-				DFA8E6312D01FA6C002AF8C4 /* main.swift */,
+				DFA8E6312D01FA6C002AF8C4 /* main0.swift */,
 				DFA8E63C2D01FAB9002AF8C4 /* study0.swift */,
 				DFA8E63B2D01FAB9002AF8C4 /* study01.playground */,
 				DFA8E63F2D01FABA002AF8C4 /* study02.playground */,
@@ -81,6 +82,7 @@
 				DFFCBBCA2D01FDD200BFB581 /* study08_함수.playground */,
 				DFFCBBCB2D02021C00BFB581 /* study09_매개변수.playground */,
 				DFFCBBCC2D02056A00BFB581 /* study10_옵셔널.playground */,
+				DF33E77C2D0303D300A423BB /* main.swift */,
 			);
 			path = SeSAC;
 			sourceTree = "<group>";
@@ -143,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF33E77D2D0303D300A423BB /* main.swift in Sources */,
 				DFA8E6402D01FABA002AF8C4 /* study0.swift in Sources */,
-				DFA8E6322D01FA6C002AF8C4 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
